@@ -1,0 +1,446 @@
+
+
+   /* ================= GENERAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    height: 50px;
+}
+
+.nav-link {
+    color: #373737;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-btn {
+    padding: 10px 25px;
+    border-radius: 0;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #75BF7A;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    padding: 80px 0;
+     background-color: #f0ebeb;
+    
+}
+
+
+.hero-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 25px;
+}
+
+
+
+.hero-text {
+    max-width: 540px;
+    color: #666;
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.app-buttons img {
+    width: 40px;
+}
+
+.hero-img {
+    max-height: 500px;
+    object-fit: contain;
+}
+
+
+/* ================= DOWNLOAD ================= */
+
+.download-section {
+    padding: 80px 0px;
+}
+
+.download-box {
+    background-color: #75BF7A;
+    border-radius: 8px;
+    padding: 40px;
+    gap: 30px;
+    
+}
+
+.download-box h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    font-style: normal;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.download-form {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.download-form input {
+ 
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    text-align: center;
+    max-width: fit-content;
+    width: 100%;
+}
+
+
+.download-form button {
+  white-space: nowrap;
+    min-height: 50px;
+    padding: 0 25px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+text-align:right
+ }
+
+
+
+
+/* ================= SECTION HEADING ================= */
+
+.section-heading {
+    max-width: 700px;
+    margin: auto;
+}
+
+.section-heading h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-heading h2 span {
+    color: #75BF7A;
+}
+
+.section-heading p {
+    color: #777;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+
+/* ================= HOW TERE WORKS ================= */
+.works-section {
+    padding: 90px 0;
+    background-color: #fff;
+}
+
+.works-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.works-left,
+.works-right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.number-icon {
+    position: relative;
+    width: 65px;
+    height: 65px;
+}
+
+.number-icon .group {
+    width: 65px;
+    height: 65px;
+}
+
+.number-icon .work-number {
+    position: absolute;
+    width: 20px;
+    height: 30px;
+
+    top: 50%;
+    left: 45%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.work-card h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.work-card p {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.works-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-center img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+
+/* ================= BENEFITS ================= */
+.benefits-section {
+    padding: 80px 0;
+}
+
+.benefit-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.benefit-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    width: 450px;
+}
+
+.benefit-number {
+    width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.benefit-text h3 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 38px;
+    margin: 10px 0 0;
+    display: flex;
+    color: rgb(33, 37, 41);
+}
+
+.benefit-text p {
+    
+    width: 230px;
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0 0;
+    gap: 10px;
+}
+
+.benefit-image {
+     gap: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.benefit-image img {
+    width: 280px;
+    height: auto;
+}
+
+
+/* Second row */
+
+.second-benefit {
+    gap: 80px;
+}
+
+.second-benefit .benefit-content {
+    align-items: center;
+}
+
+.second-benefit .benefit-text h3 {
+    margin-top: 0;
+}
+
+
+
+
+/* ================= FOOTER ================= */
+
+footer {
+    
+    padding: 70px 0 20px;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+footer h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 25px;
+    
+}
+
+footer p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 8px;
+}
+.footer-apps {
+
+     display: flex;
+    gap: 15px;
+    
+   
+    display-direction: row;
+    
+    
+}
+
+.footer-apps img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.copyright {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color:#75bf7aeb
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 43px;
+    }
+
+    .hero-img {
+        margin-bottom: 40px;
+        max-height: 400px;
+    }
+
+    .download-form {
+        margin-top: 25px;
+    }
+
+    .benefit-image {
+        margin-top: 30px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+
+    .hero-section h1 {
+        font-size: 35px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .section-heading h2 {
+        font-size: 32px;
+    }
+
+    .download-box {
+        padding: 30px 20px;
+    }
+
+    .download-box h2 {
+        font-size: 25px;
+    }
+
+    .download-form {
+        flex-direction: column;
+    }
+
+    .download-form button {
+        width: 100%;
+    }
+
+    .app-buttons img {
+        width: 140px;
+    }
+
+    .benefit-item {
+        gap: 18px;
+    }
+
+    .benefit-item img {
+        width: 65px;
+        height: 65px;
+    }
+
+    .benefit-item h3 {
+        font-size: 20px;
+    }
+
+}
